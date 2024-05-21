@@ -3,6 +3,8 @@ package main
 import (
 	"context"
 	"fmt"
+	"github.com/mironnik/go-redis"
+	"github.com/mironnik/go-redis/extra/redisotel"
 	"log"
 	"sync"
 	"time"

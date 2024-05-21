@@ -3,10 +3,11 @@ package rediscmd
 import (
 	"encoding/hex"
 	"fmt"
-	"github.com/mironnik/go-redis"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/mironnik/go-redis"
 )
 
 func CmdString(cmd redis.Cmder) string {

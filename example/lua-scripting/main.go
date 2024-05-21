@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
+	"github.com/mironnik/go-redis"
 )
 
 func main() {

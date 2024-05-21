@@ -4,6 +4,8 @@ import (
 	"context"
 
 	"github.com/davecgh/go-spew/spew"
+
+	"github.com/mironnik/go-redis"
 )
 
 type Model struct {

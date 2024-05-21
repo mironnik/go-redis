@@ -2,6 +2,7 @@ package rediscensus
 
 import (
 	"context"
+
 	"github.com/mironnik/go-redis"
 	"github.com/mironnik/go-redis/extra/rediscmd"
 

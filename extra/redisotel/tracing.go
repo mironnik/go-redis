@@ -3,12 +3,13 @@ package redisotel
 import (
 	"context"
 	"fmt"
-	"github.com/mironnik/go-redis"
-	"github.com/mironnik/go-redis/extra/rediscmd"
 	"net"
 	"runtime"
 	"strconv"
 	"strings"
+
+	"github.com/mironnik/go-redis"
+	"github.com/mironnik/go-redis/extra/rediscmd"
 
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/codes"

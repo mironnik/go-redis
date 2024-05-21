@@ -11,12 +11,15 @@ replace github.com/mironnik/go-redis/extra/redisotel => ../../extra/redisotel
 replace github.com/mironnik/go-redis/extra/rediscmd => ../../extra/rediscmd
 
 require (
+	github.com/mironnik/go-redis v0.0.0-00010101000000-000000000000
 	github.com/uptrace/uptrace-go v1.26.2
 	go.opentelemetry.io/otel v1.26.0
 )
 
 require (
 	github.com/cenkalti/backoff/v4 v4.3.0 // indirect
+	github.com/cespare/xxhash/v2 v2.3.0 // indirect
+	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/go-logr/logr v1.4.1 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.20.0 // indirect

@@ -3,9 +3,10 @@ package redisotel
 import (
 	"context"
 	"fmt"
-	"github.com/mironnik/go-redis"
 	"net"
 	"time"
+
+	"github.com/mironnik/go-redis"
 
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"

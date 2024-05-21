@@ -4,6 +4,8 @@ import (
 	"context"
 	"testing"
 
+	"github.com/mironnik/go-redis"
+
 	semconv "go.opentelemetry.io/otel/semconv/v1.7.0"
 
 	"go.opentelemetry.io/otel"

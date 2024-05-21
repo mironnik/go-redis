@@ -4,6 +4,8 @@ import (
 	"context"
 	"fmt"
 	"math/rand"
+
+	"github.com/mironnik/go-redis"
 )
 
 func main() {

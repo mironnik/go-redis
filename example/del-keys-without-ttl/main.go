@@ -7,6 +7,8 @@ import (
 	"time"
 
 	"go.uber.org/zap"
+
+	"github.com/mironnik/go-redis"
 )
 
 func main() {
