@@ -3,6 +3,8 @@ package redisotel
 import (
 	"context"
 	"fmt"
+	"github.com/mironnik/go-redis"
+	"github.com/mironnik/go-redis/extra/rediscmd"
 	"net"
 	"runtime"
 	"strconv"
@@ -12,9 +14,6 @@ import (
 	"go.opentelemetry.io/otel/codes"
 	semconv "go.opentelemetry.io/otel/semconv/v1.24.0"
 	"go.opentelemetry.io/otel/trace"
-
-	"github.com/redis/go-redis/extra/rediscmd/v9"
-	"github.com/redis/go-redis/v9"
 )
 
 const (

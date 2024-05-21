@@ -3,14 +3,13 @@ package redisotel
 import (
 	"context"
 	"fmt"
+	"github.com/mironnik/go-redis"
 	"net"
 	"time"
 
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/metric"
-
-	"github.com/redis/go-redis/v9"
 )
 
 // InstrumentMetrics starts reporting OpenTelemetry Metrics.

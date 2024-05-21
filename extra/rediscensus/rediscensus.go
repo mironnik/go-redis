@@ -2,12 +2,12 @@ package rediscensus
 
 import (
 	"context"
+	"github.com/mironnik/go-redis"
+	"github.com/mironnik/go-redis/extra/rediscmd"
+
 	"net"
 
 	"go.opencensus.io/trace"
-
-	"github.com/redis/go-redis/extra/rediscmd/v9"
-	"github.com/redis/go-redis/v9"
 )
 
 type TracingHook struct{}

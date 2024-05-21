@@ -1,9 +1,8 @@
 package redisprometheus
 
 import (
+	"github.com/mironnik/go-redis"
 	"github.com/prometheus/client_golang/prometheus"
-
-	"github.com/redis/go-redis/v9"
 )
 
 // StatGetter provides a method to get pool statistics.
