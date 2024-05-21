@@ -7,9 +7,9 @@ import (
 	"net"
 	"strings"
 
-	"github.com/redis/go-redis/v9/internal"
-	"github.com/redis/go-redis/v9/internal/pool"
-	"github.com/redis/go-redis/v9/internal/proto"
+	"github.com/mironnik/go-redis/internal"
+	"github.com/mironnik/go-redis/internal/pool"
+	"github.com/mironnik/go-redis/internal/proto"
 )
 
 // ErrClosed performs any operation on the closed client will return this error.
