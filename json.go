@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/redis/go-redis/v9/internal/proto"
-	"github.com/redis/go-redis/v9/internal/util"
+	"github.com/mironnik/go-redis/internal/proto"
+	"github.com/mironnik/go-redis/internal/util"
 )
 
 // -------------------------------------------
